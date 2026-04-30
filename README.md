@@ -1,22 +1,86 @@
-# IMS Set 1 - Android Basics
+# Introduction to Mobile Systems – Android Labs
 
 ## Student Information
 - Name: Murat Aydın
 - Student ID: 56429
 
-## Included Labs
-- Lab 1: Hello World (centered layout)
-- Lab 2: Introduce Yourself (input validation)
-- Lab 3: Number Guessing Game (random, validation, attempts logic)
+## Course
+Introduction to Mobile Systems
 
-## Description
-This project contains three basic Android applications developed using Kotlin in Android Studio.
+---
 
-## Features
-- Centered UI design using ConstraintLayout
-- User input handling and validation
-- Random number generation and game logic
+## 📱 Project Overview
 
-## How to Run
-- Open in Android Studio
-- Run on emulator or physical device
+This repository contains multiple Android lab assignments developed in Java using Android Studio. Each lab focuses on different aspects of mobile application development, including UI design, user interaction, and application logic.
+
+---
+
+## 🔹 Lab Set 1 – Hello World
+
+A simple introductory application demonstrating:
+- Basic Android project setup
+- Displaying text on screen
+- Understanding Activity lifecycle
+
+---
+
+## 🔹 Lab Set 2 – Introduce Yourself
+
+An application that presents personal information:
+- Custom UI layout
+- TextViews and basic styling
+- User interface structuring
+
+---
+
+## 🔹 Lab Set 3 – Number Guessing Game
+
+An interactive game where the user guesses a random number:
+- Random number generation
+- User input handling
+- Conditional logic
+- Feedback messages
+
+---
+
+## 🔹 Lab Assignment – Calculator
+
+A fully functional calculator application with the following features:
+
+- Numeric keypad (0–9)
+- Basic operations: +, -, *, /
+- Power operation using "num" button
+- Sequential evaluation (left-to-right, no operator precedence)
+- Error handling (e.g., division by zero)
+- Dynamic display updates
+
+### Example behavior:
+- `2 + 2 * 2 = 8` (sequential evaluation)
+- `2 num 3 = 8`
+
+---
+
+## ⚙️ Technologies Used
+- Java
+- Android Studio
+- XML (UI Layouts)
+
+---
+
+## 📦 APK
+The APK file is provided via:
+- Moodle upload or
+- GitHub Release (if available)
+
+---
+
+## 📸 Screenshots
+The repository includes screenshots demonstrating:
+- Main application interfaces
+- Calculator functionality
+- Example outputs
+
+---
+
+## 📝 Notes
+All applications are implemented as part of coursework and follow the assignment requirements.
