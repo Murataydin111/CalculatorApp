@@ -14,7 +14,7 @@
 
         <!-- ✅ CALCULATOR artık ana ekran -->
         <activity
-            android:name=".CalculatorActivity"
+            android:name=".RentalActivity"
             android:exported="true">
 
             <intent-filter>
