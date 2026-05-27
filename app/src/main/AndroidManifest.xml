@@ -12,19 +12,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab1HelloWorld">
 
-        <!-- ✅ CALCULATOR artık ana ekran -->
+        <!-- SET 5 ACTIVITIES -->
+
         <activity
-            android:name=".RentalActivity"
+            android:name=".set5.ResultActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".set5.GameActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".set5.MainActivity"
             android:exported="true">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
         </activity>
 
-        <!-- Diğer activityler -->
+        <!-- OLD ACTIVITIES -->
+
         <activity
             android:name=".GameActivity"
             android:exported="false" />
@@ -35,6 +46,10 @@
 
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".RentalActivity"
             android:exported="false" />
 
     </application>
